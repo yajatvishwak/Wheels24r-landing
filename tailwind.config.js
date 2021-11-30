@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         primary: "#EA5455",
         sortofprimary: "#2D4059",
+        offwhite: "#F6F6F6",
       },
       spacing: {
         sortofscreen: "90vh",

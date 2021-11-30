@@ -1,5 +1,7 @@
 import Link from "next/link";
 import AboutUsSection from "../sections/AboutUsSection";
+import ContactSection from "../sections/ContactSection";
+import FooterSection from "../sections/FooterSection";
 import HeaderSection from "../sections/HeaderSection";
 import LandingSection from "../sections/LandingSection";
 import MeetTheTeamSection from "../sections/MeetTheTeamSection";
@@ -15,6 +17,8 @@ export default function Home() {
       <NumbersSection />
       <TestimonialSection />
       <MeetTheTeamSection />
+      <ContactSection />
+      <FooterSection />
     </>
   );
 }
