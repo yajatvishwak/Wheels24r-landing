@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-offwhite;
+  @apply bg-offwhite  font-inter;
 }

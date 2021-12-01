@@ -1,12 +1,14 @@
 function TestimonialSection(params) {
   return (
-    <section className="flex w-full justify-center items-center h-sortofscreen">
-      <section className="max-w-screen-2xl  p-12 ">
-        <div className="text-5xl font-semibold">
+    <section className="flex w-full justify-center items-center h-full">
+      <section className="max-w-screen-2xl">
+        <div className="text-3xl md:text-5xl font-semibold">
           What others have to say about us
         </div>
-        <div className="text-2xl mb-10 mt-3 ">(spoiler, its good)</div>
-        <div className="grid grid-cols-3">
+        <div className="text-lg md:text-2xl mb-10 md:mt-3 ">
+          (spoiler, its good)
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3">
           <Card />
           <Card />
           <Card />

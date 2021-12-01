@@ -12,13 +12,21 @@ export default function Home() {
   return (
     <>
       <HeaderSection />
-      <LandingSection />
-      <AboutUsSection />
-      <NumbersSection />
-      <TestimonialSection />
-      <MeetTheTeamSection />
-      <ContactSection />
-      <FooterSection />
+      <div className="p-6">
+        <LandingSection />
+        <AboutUsSection />
+        <NumbersSection />
+        <TestimonialSection />
+        <MeetTheTeamSection />
+        <ContactSection />
+      </div>
+      {/*
+       />
+      
+      
+      
+      
+      <FooterSection /> */}
     </>
   );
 }

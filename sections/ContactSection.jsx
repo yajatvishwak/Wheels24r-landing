@@ -1,11 +1,13 @@
 function ContactSection() {
   return (
-    <section className="flex w-full justify-center items-center h-sortofscreen">
-      <section className="max-w-screen-2xl grid grid-cols-2 place-items-center place-content-center p-12 ">
+    <section className="flex w-full justify-center items-center h-full">
+      <section className="max-w-screen-2xl grid md:grid-cols-2 place-items-center place-content-center  ">
         <div>
           <div className="my-10">
-            <div className="text-5xl font-semibold ">Reach us out</div>
-            <div className="text-3xl">let’s get into business</div>
+            <div className="text-3xl md:text-5xl font-semibold ">
+              Reach us out
+            </div>
+            <div className="text-lg md:text-3xl">let’s get into business</div>
           </div>
           <div className="bg-yellow-200 p-7 rounded-xl m-3">
             <div>Did you know?</div>
@@ -114,8 +116,8 @@ function ContactSection() {
           </div>
         </div>
 
-        <div className="p-36">
-          <div className="text-xl font-semibold text-2xl">Directions</div>
+        <div className="mt-10 md:ml-10">
+          <div className="text-2xl font-semibold ">Directions</div>
           <img
             src="https://via.placeholder.com/500"
             className="rounded-xl mt-4"
